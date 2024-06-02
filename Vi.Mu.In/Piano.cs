@@ -8,18 +8,19 @@ using NAudio.Wave;
 
 namespace Vi.Mu.In
 {
-    public partial class Form1 : Form
+    public partial class Piano : Form
     {
         private AudioRecorder recorder;
         private DateTime recordingStartTime;
         private readonly List<WaveOutEvent> outputDevices = new List<WaveOutEvent>();
-
-        public Form1()
+        public Piano()
         {
             InitializeComponent();
             recorder = new AudioRecorder();
+            
         }
 
+       
 
         private void btnStartRecording_Click(object sender, EventArgs e)
         {
@@ -260,6 +261,152 @@ namespace Vi.Mu.In
                 capture = null;
             }
 
+        }
+
+        private void Piano_MouseDown(object sender, MouseEventArgs e)
+        {
+            Button btnMusicNote = sender as Button;
+            btnMusicNote.BackColor = Color.Gray;
+        }
+
+        private void Piano_MouseUp(object sender, MouseEventArgs e)
+        {
+            // Превръщаме sender в бутон
+            Button btnMusicNote = sender as Button;
+
+            // Проверка дали е черен бутон (например има "S" в името)
+            if (btnMusicNote.Name.Contains("S"))
+            {
+                btnMusicNote.BackColor = Color.Black;
+            }
+            else
+            {
+                btnMusicNote.BackColor = Color.White;
+            }
+        }
+
+
+        private void Piano_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.Q:
+                    btnMusicNoteC.BackColor = Color.Gray;
+                    break;
+                case Keys.W:
+                    btnMusicNoteCS.BackColor = Color.Gray;
+                    break;
+                case Keys.E:
+                    btnMusicNoteD.BackColor = Color.Gray;
+                    break;
+                case Keys.R:
+                    btnMusicNoteDS.BackColor = Color.Gray;
+                    break;
+                case Keys.T:
+                    btnMusicNoteE.BackColor = Color.Gray;
+                    break;
+                case Keys.Y:
+                    btnMusicNoteF.BackColor = Color.Gray;
+                    break;
+                case Keys.U:
+                    btnMusicNoteFS.BackColor = Color.Gray;
+                    break;
+                case Keys.I:
+                    btnMusicNoteG.BackColor = Color.Gray;
+                    break;
+                case Keys.O:
+                    btnMusicNoteGS.BackColor = Color.Gray;
+                    break;
+                case Keys.P:
+                    btnMusicNoteA.BackColor = Color.Gray;
+                    break;
+                case Keys.A:
+                    btnMusicNoteBS.BackColor = Color.Gray;
+                    break;
+                case Keys.S:
+                    btnMusicNoteB.BackColor = Color.Gray;
+                    break;
+                case Keys.D:
+                    btnMusicNoteC1.BackColor = Color.Gray;
+                    break;
+                case Keys.F:
+                    btnMusicNoteCS1.BackColor = Color.Gray;
+                    break;
+                case Keys.G:
+                    btnMusicNoteD1.BackColor = Color.Gray;
+                    break;
+                case Keys.H:
+                    btnMusicNoteDS1.BackColor = Color.Gray;
+                    break;
+                case Keys.J:
+                    btnMusicNoteE1.BackColor = Color.Gray;
+                    break;
+                case Keys.K:
+                    btnMusicNoteF1.BackColor = Color.Gray;
+                    break;
+            }
+
+        }
+
+        private void Piano_KeyUp(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.Q:
+                    btnMusicNoteC.BackColor = Color.White;
+                    break;
+                case Keys.W:
+                    btnMusicNoteCS.BackColor = Color.Black;
+                    break;
+                case Keys.E:
+                    btnMusicNoteD.BackColor = Color.White;
+                    break;
+                case Keys.R:
+                    btnMusicNoteDS.BackColor = Color.Black;
+                    break;
+                case Keys.T:
+                    btnMusicNoteE.BackColor = Color.White;
+                    break;
+                case Keys.Y:
+                    btnMusicNoteF.BackColor = Color.White;
+                    break;
+                case Keys.U:
+                    btnMusicNoteFS.BackColor = Color.Black;
+                    break;
+                case Keys.I:
+                    btnMusicNoteG.BackColor = Color.White;
+                    break;
+                case Keys.O:
+                    btnMusicNoteGS.BackColor = Color.Black;
+                    break;
+                case Keys.P:
+                    btnMusicNoteA.BackColor = Color.White;
+                    break;
+                case Keys.A:
+                    btnMusicNoteBS.BackColor = Color.Black;
+                    break;
+                case Keys.S:
+                    btnMusicNoteB.BackColor = Color.White;
+                    break;
+                case Keys.D:
+                    btnMusicNoteC1.BackColor = Color.White;
+                    break;
+                case Keys.F:
+                    btnMusicNoteCS1.BackColor = Color.Black;
+                    break;
+                case Keys.G:
+                    btnMusicNoteD1.BackColor = Color.White;
+                    break;
+                case Keys.H:
+                    btnMusicNoteDS1.BackColor = Color.Black;
+                    break;
+                case Keys.J:
+                    btnMusicNoteE1.BackColor = Color.White;
+                    break;
+                case Keys.K:
+                    btnMusicNoteF1.BackColor = Color.White;
+                    break;
+            }
         }
     }
 }

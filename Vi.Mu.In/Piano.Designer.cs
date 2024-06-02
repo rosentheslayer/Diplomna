@@ -1,7 +1,7 @@
 ﻿
 namespace Vi.Mu.In
 {
-    partial class Form1
+    partial class Piano
     {
 
         /// <summary>
@@ -58,7 +58,7 @@ namespace Vi.Mu.In
             // btnMusicNoteC
             // 
             this.btnMusicNoteC.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnMusicNoteC.Location = new System.Drawing.Point(12, 12);
+            this.btnMusicNoteC.Location = new System.Drawing.Point(13, 12);
             this.btnMusicNoteC.Name = "btnMusicNoteC";
             this.btnMusicNoteC.Size = new System.Drawing.Size(104, 426);
             this.btnMusicNoteC.TabIndex = 0;
@@ -66,7 +66,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteC.UseVisualStyleBackColor = true;
             this.btnMusicNoteC.Click += new System.EventHandler(this.btnMusicNoteC_Click);
+            this.btnMusicNoteC.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteC.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteC.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteC.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteD
             // 
@@ -79,7 +83,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteD.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteD.UseVisualStyleBackColor = true;
             this.btnMusicNoteD.Click += new System.EventHandler(this.btnMusicNoteD_Click);
+            this.btnMusicNoteD.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteD.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteD.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteE
             // 
@@ -92,7 +100,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteE.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteE.UseVisualStyleBackColor = true;
             this.btnMusicNoteE.Click += new System.EventHandler(this.btnMusicNoteE_Click);
+            this.btnMusicNoteE.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteE.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteE.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteE.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteF
             // 
@@ -105,7 +117,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteF.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteF.UseVisualStyleBackColor = true;
             this.btnMusicNoteF.Click += new System.EventHandler(this.btnMusicNoteF_Click);
+            this.btnMusicNoteF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteF.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteF.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteF.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteF.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteG
             // 
@@ -118,7 +134,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteG.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteG.UseVisualStyleBackColor = true;
             this.btnMusicNoteG.Click += new System.EventHandler(this.btnMusicNoteG_Click);
+            this.btnMusicNoteG.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteG.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteG.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteG.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteG.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteA
             // 
@@ -131,7 +151,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteA.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteA.UseVisualStyleBackColor = true;
             this.btnMusicNoteA.Click += new System.EventHandler(this.btnMusicNoteA_Click);
+            this.btnMusicNoteA.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteA.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteA.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteA.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteB
             // 
@@ -144,7 +168,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteB.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteB.UseVisualStyleBackColor = true;
             this.btnMusicNoteB.Click += new System.EventHandler(this.btnMusicNoteB_Click);
+            this.btnMusicNoteB.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteB.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteB.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteB.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteC1
             // 
@@ -157,7 +185,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteC1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteC1.UseVisualStyleBackColor = true;
             this.btnMusicNoteC1.Click += new System.EventHandler(this.btnMusicNoteC1_Click);
+            this.btnMusicNoteC1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteC1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteC1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteC1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteC1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteD1
             // 
@@ -170,7 +202,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteD1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteD1.UseVisualStyleBackColor = true;
             this.btnMusicNoteD1.Click += new System.EventHandler(this.btnMusicNoteD1_Click);
+            this.btnMusicNoteD1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteD1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteD1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteD1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteD1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteE1
             // 
@@ -183,7 +219,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteE1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteE1.UseVisualStyleBackColor = true;
             this.btnMusicNoteE1.Click += new System.EventHandler(this.btnMusicNoteE1_Click);
+            this.btnMusicNoteE1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteE1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteE1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteE1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteE1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteF1
             // 
@@ -196,7 +236,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteF1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteF1.UseVisualStyleBackColor = true;
             this.btnMusicNoteF1.Click += new System.EventHandler(this.btnMusicNoteF1_Click);
+            this.btnMusicNoteF1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteF1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteF1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteF1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteF1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteCS
             // 
@@ -211,7 +255,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteCS.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteCS.UseVisualStyleBackColor = false;
             this.btnMusicNoteCS.Click += new System.EventHandler(this.btnMusicNoteCS_Click);
+            this.btnMusicNoteCS.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteCS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteCS.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteCS.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteCS.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteDS
             // 
@@ -226,7 +274,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteDS.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteDS.UseVisualStyleBackColor = false;
             this.btnMusicNoteDS.Click += new System.EventHandler(this.btnMusicNoteDS_Click);
+            this.btnMusicNoteDS.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteDS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteDS.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteDS.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteDS.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteFS
             // 
@@ -241,7 +293,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteFS.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteFS.UseVisualStyleBackColor = false;
             this.btnMusicNoteFS.Click += new System.EventHandler(this.btnMusicNoteFS_Click);
+            this.btnMusicNoteFS.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteFS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteFS.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteFS.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteFS.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteGS
             // 
@@ -256,14 +312,18 @@ namespace Vi.Mu.In
             this.btnMusicNoteGS.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteGS.UseVisualStyleBackColor = false;
             this.btnMusicNoteGS.Click += new System.EventHandler(this.btnMusicNoteGS_Click);
+            this.btnMusicNoteGS.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteGS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteGS.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteGS.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteGS.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteBS
             // 
             this.btnMusicNoteBS.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnMusicNoteBS.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnMusicNoteBS.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnMusicNoteBS.Location = new System.Drawing.Point(629, 12);
+            this.btnMusicNoteBS.Location = new System.Drawing.Point(627, 12);
             this.btnMusicNoteBS.Name = "btnMusicNoteBS";
             this.btnMusicNoteBS.Size = new System.Drawing.Size(80, 274);
             this.btnMusicNoteBS.TabIndex = 0;
@@ -271,7 +331,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteBS.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteBS.UseVisualStyleBackColor = false;
             this.btnMusicNoteBS.Click += new System.EventHandler(this.btnMusicNoteBS_Click);
+            this.btnMusicNoteBS.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteBS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteBS.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteBS.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteBS.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteCS1
             // 
@@ -286,7 +350,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteCS1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteCS1.UseVisualStyleBackColor = false;
             this.btnMusicNoteCS1.Click += new System.EventHandler(this.btnMusicNoteCS1_Click);
+            this.btnMusicNoteCS1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteCS1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteCS1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteCS1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteCS1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnMusicNoteDS1
             // 
@@ -301,7 +369,11 @@ namespace Vi.Mu.In
             this.btnMusicNoteDS1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMusicNoteDS1.UseVisualStyleBackColor = false;
             this.btnMusicNoteDS1.Click += new System.EventHandler(this.btnMusicNoteDS1_Click);
+            this.btnMusicNoteDS1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.btnMusicNoteDS1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.btnMusicNoteDS1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.btnMusicNoteDS1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseDown);
+            this.btnMusicNoteDS1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             // 
             // btnStartRecording
             // 
@@ -311,7 +383,8 @@ namespace Vi.Mu.In
             this.btnStartRecording.TabIndex = 1;
             this.btnStartRecording.Text = "Record";
             this.btnStartRecording.UseVisualStyleBackColor = true;
-            this.btnStartRecording.Click += new System.EventHandler(this.btnStartRecording_Click);            // 
+            this.btnStartRecording.Click += new System.EventHandler(this.btnStartRecording_Click);
+            // 
             // btnStopRecording
             // 
             this.btnStopRecording.Location = new System.Drawing.Point(1101, 465);
@@ -336,7 +409,7 @@ namespace Vi.Mu.In
             this.recordingTimer.Interval = 1000;
             this.recordingTimer.Tick += new System.EventHandler(this.RecordingTimer_Tick);
             // 
-            // Form1
+            // Piano
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -362,9 +435,12 @@ namespace Vi.Mu.In
             this.Controls.Add(this.btnMusicNoteE);
             this.Controls.Add(this.btnMusicNoteD);
             this.Controls.Add(this.btnMusicNoteC);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Piano";
+            this.Text = "My First Piano";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyDown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Piano_KeyUp);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Piano_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -394,6 +470,7 @@ namespace Vi.Mu.In
         private System.Windows.Forms.Button btnStopRecording;
         private System.Windows.Forms.Label lblRecordingStatus;
         private System.Windows.Forms.Timer recordingTimer;
+        private System.Windows.Forms.Timer blinkTimer;
     }
 }
 

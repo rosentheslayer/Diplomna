@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Vi.Mu.In
 {
-    public partial class Main : Form
+    public partial class Main_Menu : Form
     {
-        public Main()
+        public Main_Menu()
         {
             InitializeComponent();
         }
@@ -26,6 +26,22 @@ namespace Vi.Mu.In
         {
             Title.Parent = pictureBox1;
             Title.BackColor = Color.Transparent;
+        }
+
+        private void pianobtn_Click(object sender, EventArgs e)
+        {
+            Piano newform = new Piano();
+            this.Hide();
+            newform.ShowDialog();
+            this.Show();
+        }
+
+        private void drumpadbtn_Click(object sender, EventArgs e)
+        {
+            Drum_pad newform = new Drum_pad();
+            this.Hide();
+            newform.ShowDialog();
+            this.Show();
         }
     }
 }

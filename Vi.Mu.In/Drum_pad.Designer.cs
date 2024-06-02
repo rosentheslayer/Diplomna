@@ -61,7 +61,7 @@ namespace Vi.Mu.In
             this.btnSnare.Name = "btnSnare";
             this.btnSnare.Size = new System.Drawing.Size(130, 120);
             this.btnSnare.TabIndex = 0;
-            this.btnSnare.Text = "Snare";
+            this.btnSnare.Text = "Snare 1";
             this.btnSnare.UseVisualStyleBackColor = true;
             this.btnSnare.Click += new System.EventHandler(this.btnSnare_Click);
             this.btnSnare.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Drum_pad_KeyPress);
@@ -72,7 +72,7 @@ namespace Vi.Mu.In
             this.btnBass.Name = "btnBass";
             this.btnBass.Size = new System.Drawing.Size(130, 120);
             this.btnBass.TabIndex = 0;
-            this.btnBass.Text = "Bass";
+            this.btnBass.Text = "Bass 1";
             this.btnBass.UseVisualStyleBackColor = true;
             this.btnBass.Click += new System.EventHandler(this.btnBass_Click);
             this.btnBass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Drum_pad_KeyPress);
@@ -116,7 +116,7 @@ namespace Vi.Mu.In
             this.btnCymbal1.Name = "btnCymbal1";
             this.btnCymbal1.Size = new System.Drawing.Size(130, 120);
             this.btnCymbal1.TabIndex = 0;
-            this.btnCymbal1.Text = "Cymbal 2";
+            this.btnCymbal1.Text = "Cymbal 1";
             this.btnCymbal1.UseVisualStyleBackColor = true;
             this.btnCymbal1.Click += new System.EventHandler(this.btnCymbal1_Click);
             this.btnCymbal1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Drum_pad_KeyPress);
@@ -184,7 +184,7 @@ namespace Vi.Mu.In
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Drum_pad";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Drum_pad";
+            this.Text = "Drum Pad";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Drum_pad_KeyPress);
             this.ResumeLayout(false);
             this.PerformLayout();
